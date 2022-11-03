@@ -8,6 +8,7 @@ This is a repo for setting up a new dev environment. Most of the code is written
 - [Brew Install Casks](#brew-install-casks)
 - [VS Code Setup](#vs-code-setup)
 - [Chrome Bookmarks](#chrome-bookmarks)
+- [Core Tools](#core-tools)
 - [Useful Links](#useful-links)
 
 ## Software Update
@@ -49,3 +50,7 @@ To update the file, just export the new one from Chrome and replace `james_bookm
 ## Useful Links
 
 - [Index](#index)
+
+## Core Tools
+
+This folder contains the core tools and stack I use in my projects. It is an opinionated stack and I give a lot of thought to it. It also includes the steps for building a new project to ensure no major steps are skipped to ensure the best project result.
