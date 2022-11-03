@@ -12,19 +12,39 @@ This is a repo for setting up a new dev environment. Most of the code is written
 
 ## Software Update
 
-This repo contains a shell script (softwareupdate.sh) that updates the software on Mac OS to the latest.
+This folder contains a shell script (software_update.sh) that updates the software on Mac OS to the latest.
 
 To run the script, run (from project root):
 
 ```
-sudo bash ./software-update/software-update.sh
+sudo bash ./software-update/software_update.sh
 ```
 
-## Brew Install and casks
+## Brew Install Casks
+
+This folder contains a shell script (brew_install_casks.sh) that installs homebrew and a list of casks, applications and app store applications.
+
+To run the script, run (from project root):
+
+```
+sudo bash ./brew-install-casks/brew_install_casks.sh
+```
 
 ## VS Code Setup
 
+This folder contains a shell script (vscode_extensions_install.sh) that installs extensions for VS Code and contains a settings file for use in a new VS Code.
+
+To run the script, run (from project root):
+
+```
+sudo bash ./vscode-extensions-install/vscode_extensions_install.sh
+```
+
 ## Chrome Bookmarks
+
+This folder contains a chrome bookmarks file that can be imported into Chrome.
+
+To update the file, just export the new one from Chrome and replace `james_bookmarks.html`.
 
 ## Useful Links
 
