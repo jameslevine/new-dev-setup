@@ -19,7 +19,17 @@
 #   -------------------------------
 #   1. ENVIRONMENT CONFIGURATION
 #   -------------------------------
+# Tab Completion scripts for terminal
+###################################
+if [ -f ~/.git_completion ]; then
+source ~/.git_completion
+fi
 
+# Terminals Styles if present
+###################################
+if [ -f ~/.bash_prompt ]; then
+source ~/.bash_prompt
+fi
 #   Change Prompt
 #   ------------------------------------------------------------
 export PS1="________________________________________________________________________________\n| \w @ \h (\u) \n| => "
