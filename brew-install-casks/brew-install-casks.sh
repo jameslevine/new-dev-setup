@@ -21,11 +21,11 @@ create_bash_profile() {
 }
 
 switch_to_bash() {
+   create_bash_profile
   if ! ps -p $$ &>/dev/null; then
     fancy_echo "Switching to Bash..."
     chsh -s /bin/bash
     fancy_echo "Bash is now installed"
-    create_bash_profile
   else
     fancy_echo "You already have Bash installed...good job!"
   fi
