@@ -22,6 +22,8 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension hashicorp.terraform
 # Markdown Lint
 code --install-extension DavidAnson.vscode-markdownlint
+# Markdown All-in-one
+code --install-extension jpoissonnier.yzhang.markdown-all-in-one
 # Material Icon Theme
 code --install-extension PKief.material-icon-theme
 # NPM Intellisense

@@ -4,12 +4,14 @@ This is a repo for setting up a new dev environment. Most of the code is written
 
 ## Index
 
-- [Software Update](#software-update)
-- [Brew Install Casks](#brew-install-casks)
-- [VS Code Setup](#vs-code-setup)
-- [Chrome Bookmarks](#chrome-bookmarks)
-- [Core Tools](#core-tools)
-- [Useful Links](#useful-links)
+- [Setting up a new Dev Environment](#setting-up-a-new-dev-environment)
+  - [Index](#index)
+  - [Software Update](#software-update)
+  - [Brew Install Casks](#brew-install-casks)
+  - [VS Code Setup](#vs-code-setup)
+  - [Chrome Bookmarks](#chrome-bookmarks)
+  - [Useful Links](#useful-links)
+  - [Architecture](#architecture)
 
 ## Software Update
 
@@ -49,8 +51,12 @@ To update the file, just export the new one from Chrome and replace `james_bookm
 
 ## Useful Links
 
-- [Index](#index)
+- [Useful Links Folder](./useful-links/USEFUL_LINKS.md)
 
-## Core Tools
+## Architecture
 
-This folder contains the core tools and stack I use in my projects. It is an opinionated stack and I give a lot of thought to it. It also includes the steps for building a new project to ensure no major steps are skipped to ensure the best project result.
+I created a tool you can view here which converts an object to a visual folder tree. View the tool here:
+
+[Object to Visual Folder Tree Tool (Code Sandbox)](https://codesandbox.io/s/file-tree-logger-lsbrmv?file=/src/index.js)
+
+The objects and final trees are stored in `./architecture`

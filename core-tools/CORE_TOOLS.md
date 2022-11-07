@@ -4,16 +4,22 @@ These are the core tools for use with my project stack. It is an opinionated sta
 
 ## Index
 
-- [React](#react)
-- [Type Tools](#type-tools)
-- [CSS](#css)
-- [Linting](#linting)
-- [Performance](#performance)
-- [Infrastructure As Code](#infrastructure-as-code)
-- [Development Tools](#development-tools)
-- [Analytics](#analytics)
-- [CI/CD](#cicd)
-- [Utility Libraries](#utility-libraries)
+- [Core Tools](#core-tools)
+  - [Index](#index)
+    - [React](#react)
+    - [Type Tools](#type-tools)
+    - [Utility Libraries](#utility-libraries)
+    - [Linting](#linting)
+    - [CSS](#css)
+    - [Testing](#testing)
+    - [Infrastructure As Code](#infrastructure-as-code)
+    - [Performance](#performance)
+    - [Analytics](#analytics)
+    - [Development Tools](#development-tools)
+    - [CI/CD](#cicd)
+    - [Code Storage](#code-storage)
+    - [Deployment](#deployment)
+  - [New Project Steps (in order)](#new-project-steps-in-order)
 
 ### React
 
@@ -85,3 +91,18 @@ These are the core tools for use with my project stack. It is an opinionated sta
 ### Deployment
 
 - [Netlify](https://www.netlify.com/)
+
+## New Project Steps (in order)
+
+These are the steps to tick off when building a new project. I will try to include boilerplate code and snippets wher possible
+
+1. Project Setup
+  - [ ] New CRA
+    - `npx create-react-app <app-name>`
+  - [ ] Folder Architecure
+  - [ ] Prettier & ESLint config
+    - Use config file templates in `./config-files`
+  - [ ] Import common components (if you have library)
+  - [ ] Add React Router
+  - [ ] Add Redux Toolkit setup
+  - [ ] Add Error Handling
