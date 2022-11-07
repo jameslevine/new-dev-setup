@@ -37,7 +37,9 @@ install_brew() {
   if ! command -v brew &>/dev/null; then
     fancy_echo "Installing Homebrew, an OSX package manager, follow the instructions..."
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> ~/.bash_profile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
     if ! grep -qs "recommended by brew doctor" ~/.bash_profile; then
       fancy_echo "Put Homebrew location earlier in PATH ..."
       printf '\n# recommended by brew doctor\n' >>~/.bash_profile
